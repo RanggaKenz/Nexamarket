@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,6 +33,7 @@
       href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-surface font-sans text-ink antialiased">
     <header class="border-b border-slate-200/70 bg-white/70 backdrop-blur-xl">
@@ -51,7 +52,7 @@
         </a>
 
         <div class="hidden items-center gap-3 text-sm font-medium text-slate-600 md:flex">
-          <a class="group relative inline-flex rounded-lg px-3 py-2 transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-50 hover:text-primary" href="#">
+          <a class="group relative inline-flex rounded-lg px-3 py-2 transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-50 hover:text-primary" href="#problem-section">
             Services
             <span class="absolute inset-x-0 -bottom-0.5 h-0.5 origin-left scale-x-0 rounded-full bg-primary transition-transform duration-300 group-hover:scale-x-100"></span>
           </a>
@@ -70,7 +71,7 @@
         </div>
 
         <a
-          href="#"
+          href="#problem-section"
           class="hidden rounded-lg bg-[#2563EB] px-5 py-3 text-sm font-bold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#004AC6] hover:shadow-lg sm:inline-flex"
         >
           Konsultasi Gratis
@@ -102,7 +103,7 @@
 
             <div class="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#"
+                href="#problem-section"
                 class="group inline-flex h-11 items-center justify-center gap-3 rounded-lg bg-[#2563EB] px-7 text-sm font-bold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#004AC6] hover:shadow-lg"
               >
                 Konsultasi Gratis
@@ -169,6 +170,85 @@
           </figure>
         </div>
       </section>
+
+      <section
+        id="problem-section"
+        aria-labelledby="problem-title"
+        class="bg-[#15191A] px-6 py-16 text-white md:py-24 lg:px-8 lg:py-[120px]"
+      >
+        <div class="mx-auto max-w-[1280px]">
+          <div class="scroll-reveal mx-auto max-w-3xl text-center">
+            <h2 id="problem-title" class="text-2xl font-extrabold leading-tight sm:text-3xl lg:text-[32px]">
+              Masih Bergantung pada Marketplace?
+            </h2>
+            <p class="mt-4 text-sm leading-6 text-slate-400">
+              Pelajari tantangan yang dihadapi seller di platform pihak ketiga.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-7 md:grid-cols-2 lg:mt-16 lg:grid-cols-3">
+            <article class="scroll-reveal rounded-lg border border-white/10 bg-white/[0.015] p-8 transition duration-300 hover:-translate-y-1 hover:border-pink-400/40 hover:bg-white/[0.035] hover:shadow-2xl hover:shadow-black/20">
+              <span class="font-label text-4xl font-bold leading-none text-pink-500" aria-hidden="true">×</span>
+              <h3 class="mt-5 text-base font-extrabold leading-6 text-white">
+                Potongan komisi marketplace semakin besar
+              </h3>
+              <p class="mt-4 text-sm leading-6 text-slate-300">
+                Margin keuntungan Anda tergerus oleh biaya admin dan komisi yang terus meningkat
+                tiap tahunnya.
+              </p>
+            </article>
+
+            <article class="scroll-reveal rounded-lg border border-white/10 bg-white/[0.015] p-8 transition duration-300 hover:-translate-y-1 hover:border-pink-400/40 hover:bg-white/[0.035] hover:shadow-2xl hover:shadow-black/20">
+              <span class="font-label text-4xl font-bold leading-none text-pink-500" aria-hidden="true">×</span>
+              <h3 class="mt-5 text-base font-extrabold leading-6 text-white">
+                Sulit membangun brand sendiri
+              </h3>
+              <p class="mt-4 text-sm leading-6 text-slate-300">
+                Pelanggan lebih ingat nama marketplace daripada brand Anda sendiri. Sulit
+                menciptakan loyalitas.
+              </p>
+            </article>
+
+            <article class="scroll-reveal rounded-lg border border-white/10 bg-white/[0.015] p-8 transition duration-300 hover:-translate-y-1 hover:border-pink-400/40 hover:bg-white/[0.035] hover:shadow-2xl hover:shadow-black/20">
+              <span class="font-label text-4xl font-bold leading-none text-pink-500" aria-hidden="true">×</span>
+              <h3 class="mt-5 text-base font-extrabold leading-6 text-white">
+                Data pelanggan dimiliki platform
+              </h3>
+              <p class="mt-4 text-sm leading-6 text-slate-300">
+                Anda tidak memiliki database email atau nomor WA pelanggan untuk strategi
+                remarketing mandiri.
+              </p>
+            </article>
+
+            <article class="scroll-reveal rounded-lg border border-white/10 bg-white/[0.015] p-8 transition duration-300 hover:-translate-y-1 hover:border-pink-400/40 hover:bg-white/[0.035] hover:shadow-2xl hover:shadow-black/20">
+              <span class="font-label text-4xl font-bold leading-none text-pink-500" aria-hidden="true">×</span>
+              <h3 class="mt-5 text-base font-extrabold leading-6 text-white">
+                Tidak bisa bebas mengatur sistem
+              </h3>
+              <p class="mt-4 text-sm leading-6 text-slate-300">
+                Terbatas oleh aturan platform. Tidak bisa kustomisasi promo atau alur checkout
+                sesuai kebutuhan.
+              </p>
+            </article>
+
+            <article class="scroll-reveal rounded-lg border border-white/10 bg-white/[0.015] p-8 transition duration-300 hover:-translate-y-1 hover:border-pink-400/40 hover:bg-white/[0.035] hover:shadow-2xl hover:shadow-black/20 md:col-span-2">
+              <span class="font-label text-4xl font-bold leading-none text-pink-500" aria-hidden="true">×</span>
+              <h3 class="mt-5 text-base font-extrabold leading-6 text-white">
+                Persaingan harga sangat ketat
+              </h3>
+              <p class="mt-4 text-sm leading-6 text-slate-300">
+                Pembeli dengan mudah membandingkan harga di satu layar. Perang harga seringkali
+                tidak terelakkan dan merugikan bisnis skala kecil-menengah.
+              </p>
+            </article>
+          </div>
+
+          <p class="scroll-reveal mt-12 text-center text-sm font-medium text-[#B4C5FF] lg:mt-16">
+            Saatnya memiliki website sendiri dengan kontrol penuh.
+          </p>
+        </div>
+      </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
