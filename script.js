@@ -18,6 +18,13 @@ if ("IntersectionObserver" in window) {
 
   revealItems.forEach((item, index) => {
     item.style.transitionDelay = `${Math.min(index * 80, 360)}ms`;
+    item.addEventListener(
+      "transitionend",
+      () => {
+        item.style.transitionDelay = "";
+      },
+      { once: true },
+    );
     revealObserver.observe(item);
   });
 } else {
